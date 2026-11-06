@@ -176,11 +176,3 @@ java -jar target\crud-usuarios.jar cli
 - `data.sql` é dividido por `;` — não use `;` dentro de textos literais nele.
 - O hash PBKDF2 usa 600.000 iterações (`security.pbkdf2.iterations`); cada login leva centenas de milissegundos de propósito.
 
-## Entrega (GitHub)
-
-Como na P1: crie um repositório vazio no GitHub, depois, na pasta `crud-usuarios-java`:
-
-```bash
-git init && git add . && git commit -m "CRUD de usuarios em Java (P2)"
-git branch -M main && git remote add origin <URL_DO_SEU_REPOSITORIO> && git push -u origin main
-```
